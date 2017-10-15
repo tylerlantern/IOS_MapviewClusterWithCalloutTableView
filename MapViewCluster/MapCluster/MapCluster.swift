@@ -77,6 +77,7 @@ public class MapCluster : NSObject {
         let coordinate = CLLocationCoordinate2DMake(node.x, node.y)
         let annotation = ClusterAnnotation(c: coordinate, count: 1)
         mapView.addAnnotation(annotation)
+       _  = root.QuadTreeNodeInsertData(node: root, data: node)
     }
     func  clusterAnnotationTraverse (node :QuadTreeNodeData ) {
         
