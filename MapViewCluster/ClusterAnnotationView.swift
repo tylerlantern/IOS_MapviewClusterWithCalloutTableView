@@ -55,8 +55,6 @@ class ClusterAnnotationView : MKAnnotationView {
         
     }
     func setCount(count : Int){
-        
-        
         //        CGRect newBounds = CGRectMake(0, 0, roundf(44 * TBScaledValueForValue(count)), roundf(44 * TBScaledValueForValue(count)));
         //        self.frame = TBCenterRect(newBounds, self.center);
         //        CGRect newLabelBounds = CGRectMake(0, 0, newBounds.size.width / 1.3, newBounds.size.height / 1.3);
@@ -64,19 +62,13 @@ class ClusterAnnotationView : MKAnnotationView {
         self.count = count
         let scale = CGFloat(roundf(37 * TBScaledValueForValue(value:count)))
         let newBound = CGRect(x: 0.0, y: 0.0, width: scale, height: scale)
-        self.frame = newBound
-        
+//        self.frame = newBound
+        self.bounds.size = CGSize(width: scale, height: scale)
         let newContainerBounds = CGRect(x: 0.0, y: 0.0, width: newBound.size.width / 1.3, height: newBound.size.height / 1.3)
-        
-        
-        
         self.containerView.frame = TBCenterRect(rect: newContainerBounds, center: TBRectCenter(rect: newBound))
         self.countLabel.frame = self.containerView.frame
-        
         self.containerView.bounds = newBound
-        
         self.countLabel.text = String(count)
-
     }
     
     let TBScaleFactorAlpha : Float = 0.3
@@ -94,8 +86,6 @@ class ClusterAnnotationView : MKAnnotationView {
     func TBRectCenter(rect : CGRect) -> CGPoint{
         return CGPoint(x: rect.midX, y: rect.midY)
     }
-    
-    
 }
 extension ClusterAnnotationView{
     override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {

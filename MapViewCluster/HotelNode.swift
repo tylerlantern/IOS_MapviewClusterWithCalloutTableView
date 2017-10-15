@@ -8,6 +8,14 @@
 
 import UIKit
 
-class HotelNode:  QuadTreeNode {
+struct HotelNode : QuadTreeNodeData {
+    var x: Double
+    var y: Double
+    var name : String?
+    var phoneNumber : String?
     
+    init( latitude : Double , longitude : Double) {
+        x = latitude
+        y = longitude
+    }
 }

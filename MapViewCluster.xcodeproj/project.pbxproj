@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE01C5D21F90B02C009A452F /* HotelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01C5D11F90B02C009A452F /* HotelNode.swift */; };
+		BEA958D11F90B8530081DB6F /* MyInfoClusterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA958D01F90B8530081DB6F /* MyInfoClusterAnnotation.swift */; };
 		BEAAB12A1F909E9E0055F103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB1291F909E9E0055F103 /* AppDelegate.swift */; };
-		BEAAB12C1F909E9E0055F103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB12B1F909E9E0055F103 /* ViewController.swift */; };
 		BEAAB12F1F909E9E0055F103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB12D1F909E9E0055F103 /* Main.storyboard */; };
 		BEAAB1311F909E9E0055F103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB1301F909E9E0055F103 /* Assets.xcassets */; };
 		BEAAB1341F909E9E0055F103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB1321F909E9E0055F103 /* LaunchScreen.storyboard */; };
 		BEAAB13F1F909E9E0055F103 /* MapViewClusterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB13E1F909E9E0055F103 /* MapViewClusterTests.swift */; };
 		BEAAB14A1F909E9E0055F103 /* MapViewClusterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB1491F909E9E0055F103 /* MapViewClusterUITests.swift */; };
+		BEAAB15E1F909F4C0055F103 /* CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB15D1F909F4C0055F103 /* CalloutView.swift */; };
+		BEAAB1601F909F5F0055F103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB15F1F909F5F0055F103 /* ViewController.swift */; };
+		BEAAB1621F90A0A50055F103 /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB1611F90A0A50055F103 /* myAnnotationView.swift */; };
+		BEAAB1631F90A0D60055F103 /* ClusterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB15C1F909F430055F103 /* ClusterAnnotation.swift */; };
+		BEAAB1641F90A0D60055F103 /* ClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB15B1F909F430055F103 /* ClusterAnnotationView.swift */; };
+		BEAAB1651F90A0D60055F103 /* MapCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB1581F909F430055F103 /* MapCluster.swift */; };
+		BEAAB1661F90A0D60055F103 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB15A1F909F430055F103 /* QuadTree.swift */; };
+		BEAAB1671F90A0D60055F103 /* QuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAB1591F909F430055F103 /* QuadTreeNode.swift */; };
+		BEAAB16D1F90A3180055F103 /* USA-HotelMotel.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB1681F90A1F50055F103 /* USA-HotelMotel.csv */; };
+		BEAAB16E1F90A31B0055F103 /* USA-HotelMotel2.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB16A1F90A1F60055F103 /* USA-HotelMotel2.csv */; };
+		BEAAB16F1F90A31D0055F103 /* Thai-Part.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB16C1F90A1F70055F103 /* Thai-Part.csv */; };
+		BEAAB1701F90A3220055F103 /* USA-Part.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEAAB16B1F90A1F60055F103 /* USA-Part.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE01C5D11F90B02C009A452F /* HotelNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelNode.swift; sourceTree = "<group>"; };
+		BEA958D01F90B8530081DB6F /* MyInfoClusterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoClusterAnnotation.swift; sourceTree = "<group>"; };
 		BEAAB1261F909E9E0055F103 /* MapViewCluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewCluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAAB1291F909E9E0055F103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEAAB12B1F909E9E0055F103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEAAB12E1F909E9E0055F103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEAAB1301F909E9E0055F103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEAAB1331F909E9E0055F103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,19 @@
 		BEAAB1451F909E9E0055F103 /* MapViewClusterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewClusterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAAB1491F909E9E0055F103 /* MapViewClusterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewClusterUITests.swift; sourceTree = "<group>"; };
 		BEAAB14B1F909E9E0055F103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAAB1581F909F430055F103 /* MapCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCluster.swift; sourceTree = "<group>"; };
+		BEAAB1591F909F430055F103 /* QuadTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeNode.swift; sourceTree = "<group>"; };
+		BEAAB15A1F909F430055F103 /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+		BEAAB15B1F909F430055F103 /* ClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotationView.swift; sourceTree = "<group>"; };
+		BEAAB15C1F909F430055F103 /* ClusterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotation.swift; sourceTree = "<group>"; };
+		BEAAB15D1F909F4C0055F103 /* CalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
+		BEAAB15F1F909F5F0055F103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEAAB1611F90A0A50055F103 /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
+		BEAAB1681F90A1F50055F103 /* USA-HotelMotel.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "USA-HotelMotel.csv"; sourceTree = "<group>"; };
+		BEAAB1691F90A1F60055F103 /* Spare-Part.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Spare-Part.csv"; sourceTree = "<group>"; };
+		BEAAB16A1F90A1F60055F103 /* USA-HotelMotel2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "USA-HotelMotel2.csv"; sourceTree = "<group>"; };
+		BEAAB16B1F90A1F60055F103 /* USA-Part.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "USA-Part.csv"; sourceTree = "<group>"; };
+		BEAAB16C1F90A1F70055F103 /* Thai-Part.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Thai-Part.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +124,23 @@
 		BEAAB1281F909E9E0055F103 /* MapViewCluster */ = {
 			isa = PBXGroup;
 			children = (
+				BEAAB1571F909F2B0055F103 /* MapCluster */,
 				BEAAB1291F909E9E0055F103 /* AppDelegate.swift */,
-				BEAAB12B1F909E9E0055F103 /* ViewController.swift */,
+				BEAAB15B1F909F430055F103 /* ClusterAnnotationView.swift */,
+				BEAAB1611F90A0A50055F103 /* myAnnotationView.swift */,
+				BEAAB15D1F909F4C0055F103 /* CalloutView.swift */,
+				BEAAB15F1F909F5F0055F103 /* ViewController.swift */,
+				BEAAB1691F90A1F60055F103 /* Spare-Part.csv */,
+				BEAAB16C1F90A1F70055F103 /* Thai-Part.csv */,
+				BEAAB1681F90A1F50055F103 /* USA-HotelMotel.csv */,
+				BEAAB16A1F90A1F60055F103 /* USA-HotelMotel2.csv */,
+				BEAAB16B1F90A1F60055F103 /* USA-Part.csv */,
 				BEAAB12D1F909E9E0055F103 /* Main.storyboard */,
 				BEAAB1301F909E9E0055F103 /* Assets.xcassets */,
 				BEAAB1321F909E9E0055F103 /* LaunchScreen.storyboard */,
 				BEAAB1351F909E9E0055F103 /* Info.plist */,
+				BE01C5D11F90B02C009A452F /* HotelNode.swift */,
+				BEA958D01F90B8530081DB6F /* MyInfoClusterAnnotation.swift */,
 			);
 			path = MapViewCluster;
 			sourceTree = "<group>";
@@ -123,6 +161,17 @@
 				BEAAB14B1F909E9E0055F103 /* Info.plist */,
 			);
 			path = MapViewClusterUITests;
+			sourceTree = "<group>";
+		};
+		BEAAB1571F909F2B0055F103 /* MapCluster */ = {
+			isa = PBXGroup;
+			children = (
+				BEAAB15C1F909F430055F103 /* ClusterAnnotation.swift */,
+				BEAAB1581F909F430055F103 /* MapCluster.swift */,
+				BEAAB15A1F909F430055F103 /* QuadTree.swift */,
+				BEAAB1591F909F430055F103 /* QuadTreeNode.swift */,
+			);
+			path = MapCluster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +284,10 @@
 				BEAAB1341F909E9E0055F103 /* LaunchScreen.storyboard in Resources */,
 				BEAAB1311F909E9E0055F103 /* Assets.xcassets in Resources */,
 				BEAAB12F1F909E9E0055F103 /* Main.storyboard in Resources */,
+				BEAAB16F1F90A31D0055F103 /* Thai-Part.csv in Resources */,
+				BEAAB16E1F90A31B0055F103 /* USA-HotelMotel2.csv in Resources */,
+				BEAAB16D1F90A3180055F103 /* USA-HotelMotel.csv in Resources */,
+				BEAAB1701F90A3220055F103 /* USA-Part.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEAAB12C1F909E9E0055F103 /* ViewController.swift in Sources */,
+				BEAAB1631F90A0D60055F103 /* ClusterAnnotation.swift in Sources */,
+				BEA958D11F90B8530081DB6F /* MyInfoClusterAnnotation.swift in Sources */,
+				BEAAB1641F90A0D60055F103 /* ClusterAnnotationView.swift in Sources */,
+				BEAAB1651F90A0D60055F103 /* MapCluster.swift in Sources */,
+				BE01C5D21F90B02C009A452F /* HotelNode.swift in Sources */,
+				BEAAB1661F90A0D60055F103 /* QuadTree.swift in Sources */,
+				BEAAB1671F90A0D60055F103 /* QuadTreeNode.swift in Sources */,
+				BEAAB1601F909F5F0055F103 /* ViewController.swift in Sources */,
+				BEAAB1621F90A0A50055F103 /* myAnnotationView.swift in Sources */,
 				BEAAB12A1F909E9E0055F103 /* AppDelegate.swift in Sources */,
+				BEAAB15E1F909F4C0055F103 /* CalloutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,10 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MCP73L8734;
+				DEVELOPMENT_TEAM = F3QMGAV9F8;
 				INFOPLIST_FILE = MapViewCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.to.MapViewCluster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.MapViewCluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,10 +504,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MCP73L8734;
+				DEVELOPMENT_TEAM = F3QMGAV9F8;
 				INFOPLIST_FILE = MapViewCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.to.MapViewCluster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.MapViewCluster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
